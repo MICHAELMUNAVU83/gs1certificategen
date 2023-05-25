@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&family=Akronim&family=Alata&family=Amita:wght@700&family=Bakbak+One&family=Cinzel+Decorative:wght@700&family=Courgette&family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@400;500&family=Fjalla+One&family=Italiana&family=Italianno&family=Kulim+Park&family=Lexend:wght@400;500;700&family=Londrina+Shadow&family=Philosopher:wght@700&family=Quicksand:wght@500&family=Righteous&family=Rubik:wght@300&family=Signika:wght@700&family=Sofia+Sans+Semi+Condensed:wght@200&family=Tilt+Prism&family=Yanone+Kaffeesatz&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+.bold {
+  font-family: "Alstoria";
+  font-weight: bold;
+}
+.rubik {
+  font-family: "Rubik";
+}
+
+.cinzel {
+  font-family: "Cinzel Decorative";
+}

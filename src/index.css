@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Alstoria";
+  src: local("Alstoria"), url("../fonts/Alstoria.ttf") format("truetype");
+  font-weight: bold;
+}
