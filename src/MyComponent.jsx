@@ -62,12 +62,12 @@ function MyComponent({
             </div>
             <div>
               <p>This is to certify that</p>
-              <p className="text-4xl my-4">
-                {name && <p className="my-2">{name}</p>}
+              <p className="text-4xl text-[#002060] font-bold my-4">
+                {name && <p className="my-2 ">{name}</p>}
                 {!name && <p>participant name....</p>}
               </p>
 
-              <p className="text-5xl my-2">
+              <p className="text-5xl text-[#002060]  font-bold  my-2">
                 {companyName && <p>{companyName}</p>}
                 {!companyName && <p>company Name....</p>}
               </p>
