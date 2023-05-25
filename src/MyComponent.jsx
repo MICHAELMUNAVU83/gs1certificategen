@@ -80,7 +80,7 @@ function MyComponent({
               </p>
             </div>
 
-            <div className="flex my-4 justify-between items-center">
+            <div className="flex my-4 justify-around items-center">
               <div className="flex flex-col items-center gap-2">
                 <p>Joseph Odipo</p>
                 <img src={odipo} alt="odipo" className="w-[100px]" />
