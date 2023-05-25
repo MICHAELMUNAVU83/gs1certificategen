@@ -73,6 +73,7 @@ const Form = ({
             <div className="mt-1">
               <input
                 type={"date"}
+                value={date_of_issue}
                 onChange={(e) => setDate_of_issue(e.target.value)}
                 className=" border border-gray-300   text-sm rounded-lg focus:ring-blue-500  block w-full p-2.5 "
               />

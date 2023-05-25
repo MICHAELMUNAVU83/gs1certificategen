@@ -1,11 +1,11 @@
 import "./App.css";
 import { exportComponentAsPNG } from "react-component-export-image";
 import React, { useState, createRef } from "react";
-import logo from "./assets/logo.png";
-import footer from "./assets/footer.png";
-import seal from "./assets/seal.png";
-import eva from "./assets/eva.png";
-import odipo from "./assets/odipo.png";
+import logo from "./logo.png";
+import footer from "./footer.png";
+import seal from "./seal.png";
+import eva from "./eva.png";
+import odipo from "./odipo.png";
 
 import { ToastContainer, toast } from "react-toastify";
 
