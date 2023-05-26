@@ -40,8 +40,34 @@ function MyComponent({
 
   return (
     <>
+      <div className="flex my-8 justify-center items-center">
+        <button
+          className="bg-[#F26334] flex justify-center items-center my-2 text-white hover:scale-105 transition-all  text-2xl font-bold p-2 "
+          onClick={() => {
+            window.scrollTo(0, 0);
+            setTimeout(() => {
+              exportComponentAsPNG(componentRef, {
+                fileName: `${name} Certificate.png`,
+              });
+            }, 1000);
+            notify();
+            setTimeout(() => {
+              setName("");
+
+              setTraining("");
+              setCompanyName("");
+              setDate_of_issue("");
+            }, 2000);
+          }}
+        >
+          Download Certificate Image
+        </button>
+      </div>
       <div className="w-[100%] mx-auto md:mx-0     ">
-        <div ref={componentRef} className="p-8 flex h-[90vh]  justify-between">
+        <div
+          ref={componentRef}
+          className="w-[80%] mx-auto my-8 p-4 flex h-[90vh]  justify-between"
+        >
           <div className="flex flex-col my-8 items-center gap-4  justify-between">
             <img src={logo} alt="logo" className="w-[200px] h-[200px]" />
 
@@ -113,30 +139,6 @@ function MyComponent({
         </div>
 
         <ToastContainer />
-      </div>
-
-      <div className="flex mt-16 justify-center items-center">
-        <button
-          className="bg-[#F26334] flex justify-center items-center my-2 text-white hover:scale-105 transition-all  text-2xl font-bold p-2 "
-          onClick={() => {
-            window.scrollTo(0, 0);
-            setTimeout(() => {
-              exportComponentAsPNG(componentRef, {
-                fileName: `${name} Certificate.png`,
-              });
-            }, 1000);
-            notify();
-            setTimeout(() => {
-              setName("");
-
-              setTraining("");
-              setCompanyName("");
-              setDate_of_issue("");
-            }, 2000);
-          }}
-        >
-          Download Certificate Image
-        </button>
       </div>
     </>
   );
