@@ -58,7 +58,7 @@ function MyComponent({
               <p className="text-end">The Global Language of Business</p>
 
               <p className="bg-[#F26334] font-bold text-end h-[10px] w-[100%]" />
-              <p className="text-6xl font-bold">CERTIFICATE OF PARTICIPATION</p>
+              <p className="text-6xl text-[#F26334] font-bold">CERTIFICATE OF PARTICIPATION</p>
             </div>
             <div>
               <p>This is to certify that</p>
@@ -110,7 +110,7 @@ function MyComponent({
         <ToastContainer />
       </div>
 
-      <div className="flex justify-center items-center">
+      <div className="flex mt-16 justify-center items-center">
         <button
           className="bg-[#F26334] flex justify-center items-center my-2 text-white hover:scale-105 transition-all  text-2xl font-bold p-2 "
           onClick={() => {
