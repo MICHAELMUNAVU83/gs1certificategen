@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <>
-      <p className="text-center cinzel text-xl p-4  font-bold my-4">
+      <p className="text-center text-5xl uppercase p-4  font-bold my-4">
         This is a site to generate a GS1 certificate
       </p>
       <p className="h-[8px] my-2 w-[100%] bg-[#F26334]"></p>
