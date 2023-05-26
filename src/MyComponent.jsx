@@ -92,14 +92,14 @@ function MyComponent({
               <p className="text-6xl text-[#F26334] items-start font-bold">
                 CERTIFICATE OF PARTICIPATION
               </p>
-              <div className="flex flex-col  gap-2 w-[50%] mx-auto">
+              <div className="flex flex-col   w-[50%] mx-auto">
                 <p>This is to certify that</p>
-                <p className="text-4xl text-[#002060] font-bold my-4">
-                  {name && <p className="my-2 ">{name}</p>}
+                <p className="text-4xl text-[#002060] font-bold my-1">
+                  {name && <p>{name}</p>}
                   {!name && <p>participant name....</p>}
                 </p>
 
-                <p className="text-5xl text-[#002060]  font-bold  my-2">
+                <p className="text-5xl text-[#002060]  font-bold  my-1">
                   {companyName && <p>{companyName}</p>}
                   {!companyName && <p>company Name....</p>}
                 </p>
