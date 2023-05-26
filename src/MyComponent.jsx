@@ -42,7 +42,7 @@ function MyComponent({
           <div className="flex flex-col my-8 items-center gap-4  justify-between">
             <img src={logo} alt="logo" className="w-[200px] h-[200px]" />
 
-            <img src={seal} alt="seal" className="" />
+            <img src={seal} alt="seal" className="h-[300px]" />
 
             <div clsasName="flex flex-col gap-2">
               <p>GS1 Kenya</p>
