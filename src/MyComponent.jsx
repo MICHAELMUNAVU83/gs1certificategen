@@ -1,5 +1,8 @@
 import "./App.css";
-import { exportComponentAsPNG } from "react-component-export-image";
+import {
+  exportComponentAsPNG,
+  exportComponentAsPDF,
+} from "react-component-export-image";
 import React, { useState, createRef } from "react";
 import logo from "./logo.png";
 import footer from "./footer.png";
@@ -24,7 +27,7 @@ function MyComponent({
 }) {
   const [componentRef, setComponentRef] = useState(createRef());
   const notify = () =>
-    toast.success("Image Downloaded Successfully", {
+    toast.success("Certificate Downloaded Successfully", {
       position: "top-center",
       autoClose: 2000,
       hideProgressBar: false,
@@ -58,7 +61,9 @@ function MyComponent({
               <p className="text-end">The Global Language of Business</p>
 
               <p className="bg-[#F26334] font-bold text-end h-[10px] w-[100%]" />
-              <p className="text-6xl text-[#F26334] font-bold">CERTIFICATE OF PARTICIPATION</p>
+              <p className="text-6xl text-[#F26334] font-bold">
+                CERTIFICATE OF PARTICIPATION
+              </p>
             </div>
             <div>
               <p>This is to certify that</p>
@@ -117,7 +122,7 @@ function MyComponent({
             window.scrollTo(0, 0);
             setTimeout(() => {
               exportComponentAsPNG(componentRef, {
-                fileName: `${name} Poster.png`,
+                fileName: `${name} Certificate.png`,
               });
             }, 1000);
             notify();
@@ -130,7 +135,7 @@ function MyComponent({
             }, 2000);
           }}
         >
-          Download Certificate
+          Download Certificate Image
         </button>
       </div>
     </>
