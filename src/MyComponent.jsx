@@ -87,10 +87,10 @@ function MyComponent({
               <p className="text-end">The Global Language of Business</p>
 
               <p className="bg-[#F26334] font-bold text-end h-[10px] w-[100%]" />
-              <p className="text-6xl text-[#F26334] font-bold">
-                CERTIFICATE OF PARTICIPATION
-              </p>
             </div>
+            <p className="text-6xl text-[#F26334] items-start font-bold">
+              CERTIFICATE OF PARTICIPATION
+            </p>
             <div>
               <p>This is to certify that</p>
               <p className="text-4xl text-[#002060] font-bold my-4">
