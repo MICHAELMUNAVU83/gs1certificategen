@@ -66,7 +66,7 @@ function MyComponent({
       <div className="w-[100%] mx-auto md:mx-0     ">
         <div
           ref={componentRef}
-          className="w-[94%] mx-auto my-8 p-4 flex h-[90vh]  justify-between"
+          className="w-[94%] mx-auto mb-48 p-4 flex h-[90vh]  justify-between"
         >
           <div className="flex flex-col my-8 items-center gap-4  justify-between">
             <img src={logo} alt="logo" className="w-[200px] h-[200px]" />
